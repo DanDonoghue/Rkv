@@ -4,6 +4,14 @@ Relational Key-Value JSON Builder
 This project allows many-to-many relational data to be encoded in JSON. It does this by moving the hierarchical portion of JSON into a property on each value, replacing the one-to-many relationships already in JSON.
 The code also introduces a property for storing the identifiers for multiple parents on children elements, allowing for many-to-many datasets.
 
+## Building
+
+```
+npm install
+tsc
+node ./build/Release/test.js
+```
+
 ## Example output
 
 ```
