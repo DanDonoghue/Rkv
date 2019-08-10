@@ -1,0 +1,18 @@
+{
+  "name": "rkv",
+  "version": "1.0.0",
+  "description": "Relational Key-Value",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Donoghue",
+  "license": "ISC",
+  "dependencies": {
+    "@types/uuid": "^3.4.5",
+    "typescript": "^3.1.1",
+    "uuid": "^3.3.2"
+  }
+}
