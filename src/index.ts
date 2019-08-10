@@ -17,7 +17,6 @@ export class Rkv {
 		o._child.forEach( (value, index, array) => { callback( this.getItem(value), index, array) } );
 	}
 	getParent(o: Item, callback: (value: object, index?: number, array?: string[]) => void ){
-		// o.parent.forEach( callback );
 		o._parent.forEach( (value, index, array) => { callback( this.getItem(value), index, array) } );
 	}
 	getItem( identifier: string ) : Item{
