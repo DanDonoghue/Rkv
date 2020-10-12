@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./bin/index.js",
     "build": "./node_modules/typescript/bin/tsc",
+    "run-test": "node ./build/Release/test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dan Donoghue",

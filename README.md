@@ -8,8 +8,8 @@ The code also introduces a property for storing the identifiers for multiple par
 
 ```
 npm install
-tsc
-node ./build/Release/test.js
+npm run-script build
+npm run-script run-test
 ```
 
 ## Example output
